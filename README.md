@@ -7,7 +7,9 @@ Project released under CC-BY-SA 4.0 license
 
 
 ### Project status
-Waiting for the boards from the manifacturer, not tested yet.
+* Power section working
+* USB host working
+* Ethernet not working, see issue #5 
 
 ### Project description 
 This project is a dock, compabile with Onion omega, omega2 and omega2+. It features:  
