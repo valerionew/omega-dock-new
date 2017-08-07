@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RJ45-TRAFO-AMPHENOL)(type KiCad)(uri "$(KIPRJMOD)/RJ45-TRAFO-AMPHENOL.pretty")(options "")(descr ""))
+)

@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP OMEGA_2
+D Onion Omega 2
+K onion omega 2 2+
+$ENDCMP
+#
+$CMP RJ45-TRAFO
+D RJ45 with transformer + leds WURTH
+K RJ45
+$ENDCMP
+#
 #End Doc Library
