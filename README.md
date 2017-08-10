@@ -7,7 +7,8 @@ Project released under CC-BY-SA 4.0 license
 
 
 ### Project status
-v1.0 tested, working
+v0.9 tested, working with some bodges
+v1.0 boards not tested yet
 
 ### Project description 
 This project is a dock, compabile with Onion Omega 2 and Omega 2+. 
