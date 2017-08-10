@@ -3,24 +3,14 @@
 Project released under CC-BY-SA 4.0 license  
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-![Board 3D View](board/boards.png)
-
-
 ### Project status
-* Power section working
-* USB host working
-* Ethernet not working, see issue #5 
+v1.0 tested, working
 
 ### Project description 
-This project is a dock, compabile with Onion omega, omega2 and omega2+. It features:  
+This project is a dock, compabile with Onion Omega 2 and Omega 2+. 
+It features:  
 * Microusb connector for power supply with onboard linear regulation  
 * USB host connector  
 * Ethernet connector
 
-All in the compact shape of the omega boards.  
-The project came out when i was looking for the ethernet expansion board from Onion. 
-Their price is 15$ for the ethernet expansion, then you'll need another 20$ for the dock board. 
-35$ in total.
-That seemed too much for a bunch of connectors and some component, so i decided to make mine.
-My board costs about 10-15$ as a prototype (but then you don't have to spend another 20$ for the dock). 
-The price should decrease if more boards are fabricated.
+I've tried to add all the features that i needed for a project, in the smallest form factor possible: the Onion Omega 2/2+ size
