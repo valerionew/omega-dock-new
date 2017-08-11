@@ -5,19 +5,34 @@ Project released under CC-BY-SA 4.0 license
 
 ![layout 1](/images/layout.jpg)
 
+1. [Project status](#project-status)  
+1. [Project description](#project-description)  
+1. [BOM](#bom)  
+1. [Photos](#photos)  
 
-### Project status
+## Project status
 v0.9 tested, working with some bodges  
 v1.0 boards not tested yet
 
-### Project description 
-This project is a dock, compabile with Onion Omega 2 and Omega 2+. 
-It features:  
-* Microusb connector for power supply with onboard linear regulation  
-* USB host connector  
-* Ethernet connector
+## Project description 
+This is my dock\new project: it's a small dock (same size as the mini dock and the omega) for the Onion Omega 2 and 2+.
 
-I've tried to add all the features that i needed for a project, in the smallest form factor possible: the Onion Omega 2/2+ size.
+I needed the smallest dock i could do, that featured:
+
+* Ethernet
+* Type A USB host
+* Micro USB for power
+
+It has an onboard linear voltage regulation (i didn't bother going with a switching one for such low power), magnetics integrated in the RJ45 connector to save space, USB host ESD protection (diode array), USB host PTC fuse.
+
+On the left side there is the RJ45 connector and nothing on the back side of the board, so that you can easily access the MicroSD card on the Omega 2+.
+On the right side (the antenna side of the omega) you have the USB type A connector, facing outwards, and the microusb connector for power, facing inwards.
+
+The first version, v0.9, had some issues with the ethernet. Currently i've released v1.0 that solves all the issues, adds a led to check power and, making a better use of the space, the RJ45 connector doesn't protrude anymore. I haven't ordered the v1.0 PCBs yet, but the circuit is tested.
+
+I've chosen 0805 passives, 1206 ptc fuse, big smd electrolitic caps, a SOT223 (the classic 1117) for power regulation and a SOT23-6 for usb host protection, so it can all be easily handsoldered with just a plain soldering iron. Probably the hardest part to handsolder is the SOT23-6 but it's easily doable by hand.
+
+The components and board cost for the prototype it's arround 10 to 15€ per board.
 
 ## BOM
 |    Symbol   |                 Package                | Quantity |    Valore   |                          Note                          |
@@ -37,7 +52,7 @@ I've tried to add all the features that i needed for a project, in the smallest 
 | U2          | SOT223                                 |     1    | AP111733    |                                                        |
 | U3          | Socket_Strip_Straight_1x16_Pitch2.00mm |     2    | OMEGA_2_2+  | Two 2mm 1x16 strip connectors                          |
 
-
+## Photos
 ![image 1](/images/1.jpg)
 ![image 2](/images/2.jpg)
 ![image 3](/images/3.jpg)
