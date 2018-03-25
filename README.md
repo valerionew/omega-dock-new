@@ -13,8 +13,7 @@ Project released under CC-BY-SA 4.0 license
 If you want to discuss the project, join [the thread in the onion community forum](https://community.onion.io/topic/2284/my-omega-2-2-dock-new)
 
 ## Project status
-v0.9 tested, working with some bodges  
-v1.0 boards not tested yet, **proceed at your own risk**
+Current version is tested and working.  
 
 ## Project description 
 This is my dock\new project: it's a small dock (same size as the mini dock and the omega) for the Onion Omega 2 and 2+.
