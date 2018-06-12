@@ -14,6 +14,7 @@ If you want to discuss the project, join [the thread in the onion community foru
 
 ## Project status
 Current version is tested and working.  
+No new versions are planned at the moment
 
 ## Project description 
 This is my dock\new project: it's a small dock (same size as the mini dock and the omega) for the Onion Omega 2 and 2+.
