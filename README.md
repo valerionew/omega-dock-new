@@ -54,6 +54,56 @@ The components and board cost for the prototype it's arround 10 to 15€ per boa
 | U2          | SOT223                                 |     1    | AP111733    |                                                        |
 | U3          | Socket_Strip_Straight_1x16_Pitch2.00mm |     2    | OMEGA_2_2+  | Two 2mm 1x16 strip connectors                          |
 
+## Build instructions 
+The following is my response to [issue #10](https://github.com/5N44P/omega-dock-new/issues/10), where i described the assembly process and tips and tricks that i use. I think it might be helpfull to report it here.
+
+First of all: 
+**I strongly encourage anyone who has any basic electronic soldering experience, to get the boards from wherever they want and solder his own. It's much more satisfying and, if you've never done SMD before, you'll have a chance to learn it**. 
+Why do i say so? Because this board has a very few parts, big SMD pads and reasonably big components. Once you learn SMD soldering, they are even easier to solder than through hole parts. Don't feel uncomfortable, SMD parts are great.
+
+### Boards
+The easiest thing is to just get it from OSHPark. They have good prices, deliver three boards and the shipping is free worldwide. I've already uploaded my v1.0 design on their website, so that you can order it with just a few clicks.
+[Here](https://oshpark.com/shared_projects/xYpCcduu) is the link.
+
+### Soldering
+So, what you need to get started? 
+* **A soldering iron**. I use the *Hakko FX-888D* with the tip that comes with it, but that's upon your preferences and your budget. A cheaper Chinese iron will also do the job.
+* **Solder**. I use *Sn60Pb40 solder*, and i recommend you to do the same. I prefer 0.5 mm, but you can go with whatever you want, i suggest to stay in the 0.4-0.75 range.
+* **Some flux**. I use it in a *felt tip dispensing pen*, but again, you can use whatever you prefer.
+* **Solder wick**. I use whatever i can find, not really a problem. 
+* **Fine tweezers**, if possible ESD safe. I use the *Vetus ESD-11*, but yet again you can use whatever you want.
+* **Patience!** A lot of that! After all, you are learning something new
+
+That's all you need. Given that you already have a soldering iron, the other things are cheap. Patience is free.
+About the method, these are the steps i do for a 2 pin component:
+1. Put some flux on the pads. No skimping with that
+1. Heat one pad with your iron and put some solder on it. You'll learn the right amount with the time, but don't worry, you'll have the chance to remove the excess with the wick after (or before, if you prefer) you've soldered the part. 
+1. Grab the part with the tweezers, reheat the pad and place the component. Don't be too quick or solder won't stick to the part. Hold the part with the tweezers until the solder becomes solid. Then release.
+1. Solder the other pin, adding some solder.
+1. Inspect. Check, by eyes or with a magnifying glass, that there is a joint between each pad and the component.
+
+That's it. For ICs and parts with more pins i usually solder one pad first, make sure that the alignment is correct, then solder the diagonally opposite pin, then all the others, but the steps are basically the same.
+Same rule as THT soldering applies: lower profile parts first.
+
+### Parts
+For the passives you can basically pick whatever you want, as long as they are the same value, same package, and same tolerance. All those specs and quantities are shown in the table up here.
+
+The only two ICs here are U1 and U2. 
+
+U1 is USBLC6-2SC6. This is a TVS and diode protection array, specifically designed for USB ESD protection. It is not *strictly* necessary, but given that it's a very cheap part and provides additional protection, why not use it. Moreover, the docks from omega use a similar protection too. However, if you aren't going to use it short pad 1 with pad 6, and pad 3 with pad 4. **DON'T short pad 2 and pad 5. That would be a short on the power supply**
+
+U2 is just a basic 1117-3.3v. A linear 3.3v regulator. You can pick a 1117 3.3v or even another linear regulator, as long as it has the same package, the same footprint, and it's capable of supplying at least 500mA.
+
+There is a 1206 PTC fuse, anything from 1A to 1.5A should be good. 
+
+Connector choice is critical to this project. I've indicated the exact part that i've used. If you can't find them you have two choices:
+1. Pick another part. You can go to whatever supplier, shop or distributor and find a part that would fit mechanically in the pins. Make sure to check the distance between the mechanical mounting pins and the electrical pins. Also  **check the pinout, they are not always the same, especially in RJ45 connectors.**. 
+In USB and RJ45 connectors, the distance from the last pin in the back, and the back of the connector **is critical**: it should be **no more** than what is in the parts that i've indicated, or the two polarized capacitors won't fit. If the RJ45 part has LED pins, they can be cut before soldering, so no big deal.
+1. Modify the board. You can download the KiCad files and modify the footprints in order to fit your particular connector. Again,  **check the pinout**.
+
+Then, pick two parts of 1x16 2mm female header, and you are done. 
+
+
 ## Photos
 ![image 1](/images/1.jpg)
 ![image 2](/images/2.jpg)
