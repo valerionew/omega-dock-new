@@ -55,7 +55,7 @@ The components and board cost for the prototype it's arround 10 to 15€ per boa
 | U3          | Socket_Strip_Straight_1x16_Pitch2.00mm |     2    | OMEGA_2_2+  | Two 2mm 1x16 strip connectors                          |
 
 ## Build instructions 
-The following is my response to [issue #10](https://github.com/5N44P/omega-dock-new/issues/10), where i described the assembly process and tips and tricks that i use. I think it might be helpfull to report it here.
+The following is my response to [issue #10](https://github.com/valerionew/omega-dock-new/issues/10), where i described the assembly process and tips and tricks that i use. I think it might be helpfull to report it here.
 
 First of all: 
 **I strongly encourage anyone who has any basic electronic soldering experience, to get the boards from wherever they want and solder his own. It's much more satisfying and, if you've never done SMD before, you'll have a chance to learn it**. 
