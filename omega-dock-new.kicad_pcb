@@ -1414,7 +1414,7 @@
   (gr_line (start 173.228 47.752) (end 173.228 52.4764) (layer F.SilkS) (width 0.1))
   (gr_line (start 181.6608 47.752) (end 173.228 47.752) (layer F.SilkS) (width 0.1))
   (gr_line (start 181.6608 52.4764) (end 181.6608 47.752) (layer F.SilkS) (width 0.1))
-  (gr_text github.com/5N44P (at 188.0108 47.8536) (layer F.SilkS)
+  (gr_text github.com/valerionew (at 188.0108 47.8536) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text ethernet (at 192 67.9) (layer B.SilkS)
