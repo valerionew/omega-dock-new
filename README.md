@@ -10,6 +10,8 @@ Project released under CC-BY-SA 4.0 license
 1. [BOM](#bom)  
 1. [Photos](#photos) 
 
+<a href="https://oshpark.com/shared_projects/xYpCcduu"><img src="https://oshpark.com/packs/media/images/badge-5f4e3bf4bf68f72ff88bd92e0089e9cf.png" alt="Order from OSH Park"></img></a>
+
 If you want to discuss the project, join [the thread in the onion community forum](https://community.onion.io/topic/2284/my-omega-2-2-dock-new)
 
 ## Project status
@@ -64,6 +66,7 @@ Why do i say so? Because this board has a very few parts, big SMD pads and reaso
 ### Boards
 The easiest thing is to just get it from OSHPark. They have good prices, deliver three boards and the shipping is free worldwide. I've already uploaded my v1.0 design on their website, so that you can order it with just a few clicks.
 [Here](https://oshpark.com/shared_projects/xYpCcduu) is the link.
+
 
 ### Soldering
 So, what you need to get started? 
