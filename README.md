@@ -70,7 +70,7 @@ The easiest thing is to just get it from OSHPark. They have good prices, deliver
 
 ### Soldering
 So, what you need to get started? 
-* **A soldering iron**. I use the *Hakko FX-888D* with the tip that comes with it, but that's upon your preferences and your budget. A cheaper Chinese iron will also do the job.
+* **A soldering iron**. I use the *Hakko FX-888D* with the tip that comes with it, but that's upon your preferences and your budget. A cheaper AliExpress iron will also do the job.
 * **Solder**. I use *Sn60Pb40 solder*, and i recommend you to do the same. I prefer 0.5 mm, but you can go with whatever you want, i suggest to stay in the 0.4-0.75 range.
 * **Some flux**. I use it in a *felt tip dispensing pen*, but again, you can use whatever you prefer.
 * **Solder wick**. I use whatever i can find, not really a problem. 
